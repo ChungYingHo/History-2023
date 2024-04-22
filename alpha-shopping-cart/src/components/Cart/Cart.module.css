@@ -1,0 +1,18 @@
+.container{
+    width: 40%;
+    height: 90%;
+    border: lightgray solid 2px;
+    border-radius: 7px;
+}
+
+.cart_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.price, .total{
+    margin-bottom: 1rem;
+    border-top: lightgray solid 1px;
+    display: flex;
+    justify-content: space-between;
+}

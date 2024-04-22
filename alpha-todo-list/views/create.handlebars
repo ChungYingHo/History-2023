@@ -1,0 +1,17 @@
+<div class="container">
+    <form action="/todo-list" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" placeholder="Type your to-do list!" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Detail description</label>
+            <textarea name="description" id="description" placeholder="Type the detail if you need." cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-success">Create</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+            <a href="/" class="btn btn-secondary">Home</a>
+        </div>
+    </form>
+</div>

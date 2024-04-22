@@ -1,0 +1,20 @@
+<ul class="list-group">
+    {{#each todo}}
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-8 index-info-container">
+                    <input type="checkbox" name="isDone" {{#if this.isDone}} checked {{/if}} disabled style="vertical-align: middle;">
+                    <h4 style="display: inline; vertical-align: middle; padding-left: 10px;">{{this.name}}</h4>
+                </div>
+            
+                <div class="col-4 index-btn-container">
+                    <a href="/todo-list/{{this._id}}" class="btn btn-secondary">Detail</a>
+                    <a href="/todo-list/{{this._id}}/edit" class="btn btn-success">Edit</a>
+                    <form action="/todo-list/{{this._id}}?_method=DELETE" method="POST" style="display: inline;">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </li>
+    {{/each}}
+</ul>

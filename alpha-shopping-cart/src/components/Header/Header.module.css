@@ -1,0 +1,47 @@
+header{
+    width: 90%;
+    margin: 0 auto 3rem;
+}
+
+.navbar{
+    /* outline: blue solid 2px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.service, .tool{
+    list-style-type: none;
+    color: black;
+}
+
+.service{
+    /* outline: red solid 2px; */
+    padding: 0;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools{
+    /* outline: yellow solid 2px; */
+    grid-column: 3/4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tool{
+    margin-left: 2rem;
+}

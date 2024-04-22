@@ -1,0 +1,42 @@
+.product_container{
+    /* outline: red solid 2px; */
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.img{
+    width: 6rem;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.product_info{
+    /* outline: blue solid 3px; */
+    padding-left: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_area{
+    position: relative;
+}
+
+.product_controller{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.price{
+    /* outline: yellow solid 2px; */
+    padding-right: 1rem;
+}

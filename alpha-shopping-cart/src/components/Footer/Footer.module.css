@@ -1,0 +1,49 @@
+footer {
+    background-color: rgba(223, 223, 223, 0.3);
+}
+
+.content a, .group a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 5px;
+    margin-bottom: 5px;
+}
+
+.container{
+    /* outline: red solid 2px; */
+    width: 90%;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group{
+    /* outline: blue solid 2px; */
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.h4{
+    font-weight: 700;
+}
+
+.content{
+    /* outline: green solid 2px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_container{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 5px;
+}

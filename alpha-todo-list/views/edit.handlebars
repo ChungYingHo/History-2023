@@ -1,0 +1,16 @@
+<div class="container">
+    <form action="/todo-list/{{todo._id}}?_method=PUT" method="POST">
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+                <input type="checkbox" name="isDone" {{#if todo.isDone}} checked {{/if}} class="form-check-input mt-0" style="vertical-align: middle;">
+            </div>
+            <input type="text" name="name" value="{{todo.name}}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Detail description</label>
+            <textarea name="description" id="description" cols="30" rows="10" class="form-control">{{todo.description}}</textarea>
+        </div>
+            <button type="submit" class="btn btn-success">Save</button>
+            <a href="/" class="btn btn-secondary">Home</a>
+    </form>
+</div>

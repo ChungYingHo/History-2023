@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    /* outline: red solid 2px; */
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dbmigrate": "npx sequelize db:migrate && npx sequelize db:seed:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.7",
+    "mysql2": "^3.6.1",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1",
+    "sweetalert2": "^11.7.31"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "^18.17.1"
+  }
+}

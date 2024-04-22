@@ -1,0 +1,66 @@
+a{
+    text-decoration: none;
+}
+
+/* main */
+header{
+    width: 100%;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+.container-fluid{
+    width: 85%;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* index */
+main{
+    width: 100%;
+    position: relative;
+    top: 80px;
+}
+
+.carousel-item img{
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel-caption{
+    background-color: rgba(232, 232, 233, 0.6);
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color: black;
+}
+
+.card img{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-body h5, .restaurant-category{
+    color: rgb(108, 113, 112);
+}
+
+/* edit & create */
+label{
+    color: black;
+}
+
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display: inline;
+}

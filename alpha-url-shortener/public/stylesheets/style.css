@@ -1,0 +1,119 @@
+*{
+    margin: 0 0 1rem 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 375px;
+}
+
+.btn {
+    width: 80px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(61, 60, 60);
+    padding: 5px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: rgb(177, 176, 176) solid 2px;
+}
+
+.btn:active{
+    background-color: aliceblue;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+/* main.handlebars */
+.header-title{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.header-img{
+    width: 8rem;
+}
+
+footer{
+    color: darkgray;
+}
+
+/* index.handlebars */
+.url-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.url-input{
+    width: 60%;
+    padding: 5px;
+    border-radius: 20px;
+    border: gray solid 2px;
+    font-size: 1.5rem;
+}
+
+.url-input:hover{
+    border: rgb(172, 172, 239) solid 2px;
+}
+
+.url-btn{
+    margin-top: 1rem;
+}
+
+/* shortener.handlebars */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+#shorter-url{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(240, 112, 133);
+    margin: 1rem 0;
+}
+
+.remind{
+    color: #ff6600;
+    margin: 0.5rem 0;
+}
+
+.btn-group{
+    margin-top: 1.5rem;
+}
+
+.btn-copy{
+    background-color: rgb(185, 238, 185);
+    border: rgb(101, 179, 101) solid 2px;
+    margin-right: 1rem;
+}
+
+/*** RWD ***/
+/* 720px */
+@media screen and (min-width: 720px) {
+    .url-input{
+        width: 50%;
+    }
+}
+
+/* 1024px */
+@media screen and (min-width: 960px) {
+    .url-input {
+        width: 45%;
+    }
+}

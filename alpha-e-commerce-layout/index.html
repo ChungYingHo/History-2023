@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce layout practice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Logo and brand-text -->
+        <a href="#" class="nav-brand">
+            <img src="./images/logo.png" alt="Logo"
+                class="logo">
+            <p class="logo-text">TSHIRT STORE <span class="brand-trademark">&reg</span></p>
+        </a>
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">Men</li>
+                <li class="nav-item">Women</li>
+                <li class="nav-item">Kids</li>
+            </ul>
+        </nav>
+        <!-- Tool box -->
+        <div class="nav-tool">
+            <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl search"></i></a>
+            <a href="#"><i class="fa-regular fa-heart fa-xl favorite"></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping fa-xl shopping-bag"></i></a>
+        </div>
+    </header>
+    
+    <!-- Select -->
+    <section class="select">
+        <div class="container">
+            <div class="select-wrapper">
+                <h3 class="select-title">Basic T-shirts</h3>
+                <div class="select-form">
+                    <select class="select-size">
+                        <option>Size</option>
+                    </select>
+                    <select class="select-color">
+                        <option>Color</option>
+                    </select>
+                    <select class="select-sort">
+                        <option>Sort</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Album -->
+    <section class="album">
+        <div class="container">
+            <div class="album-wrapper">
+                <!-- card 1 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./images/t-shirt-cover.png" alt="T-shirt"
+                            class="card-image">
+                        <img src="./images/black-tshirt-man.png"
+                            alt="black T-shirt" class="card-image-hover">
+                        <i class="fa-regular fa-heart card-favorite"></i>
+                    </div>
+                    <div class="card-text">
+                        <p class="card-title">Boy's black T-shirt</p>
+                        <p class="card-description">25.00 USD</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./images/t-shirt-cover.png" alt="T-shirt"
+                            class="card-image">
+                        <img src="./images/white-tshirt-man.jpg"
+                            alt="white T-shirt" class="card-image-hover">
+                        <i class="fa-regular fa-heart card-favorite"></i>
+                    </div>
+                    <div class="card-text">
+                        <p class="card-title">Boy's white T-shirt</p>
+                        <p class="card-description">15.00 USD</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./images/t-shirt-cover.png" alt="T-shirt"
+                            class="card-image">
+                        <img src="./images/black-tshirt-woman.png"
+                            alt="girl's black T-shirt" class="card-image-hover">
+                        <i class="fa-regular fa-heart card-favorite"></i>
+                    </div>
+                    <div class="card-text">
+                        <p class="card-title">Girl's black T-shirt</p>
+                        <p class="card-description">35.00 USD</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./images/t-shirt-cover.png" alt="T-shirt"
+                            class="card-image">
+                        <img src="./images/white-tshirt-woman.png"
+                            alt="girl's white T-shirt" class="card-image-hover">
+                        <i class="fa-regular fa-heart card-favorite"></i>
+                    </div>
+                    <div class="card-text">
+                        <p class="card-title">Girl's white T-shirt</p>
+                        <p class="card-description">29.00 USD</p>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="./images/t-shirt-cover.png" alt="T-shirt"
+                            class="card-image">
+                        <img src="./images/black-tshirt-woman.png"
+                            alt="girl's black T-shirt" class="card-image-hover">
+                        <i class="fa-regular fa-heart card-favorite"></i>
+                    </div>
+                    <div class="card-text">
+                        <p class="card-title">Girl's black T-shirt</p>
+                        <p class="card-description">35.00 USD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Display total products amount -->
+    <section class="total">
+        <p class="total-text">5/5</p>
+    </section>
+    
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-text">
+            <p class="banner-description">Get the latest T-shirt drops in your inbox! Sign up for our Newsletter.</p>
+            <form class="email-form">
+                <input type="email" placeholder="Enter email for new updates">
+                <button type="submit">SIGN UP!</button>
+            </form>
+            <p class="banner-policy">By registering you agree with our
+                <a href="https://www.tshirtstoreonline.com/en/integrity-policy" class="policy">Integrity Policy</a>
+            </p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">&reg2021 Tshirt Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
